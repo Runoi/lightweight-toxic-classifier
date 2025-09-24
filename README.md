@@ -100,7 +100,6 @@ uvicorn api.main:app --reload
 Откройте в браузере [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) для доступа к интерактивной документации.
 
 **Запуск через Docker:**
-```bash
 # 1. Сборка образа
 docker build -t toxic-classifier-api . -f api/Dockerfile
 
