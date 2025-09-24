@@ -1,0 +1,8 @@
+# .gitignore
+
+# Виртуальное окружение
+venv/
+
+# Python кэш
+__pycache__/
+*.pyc
